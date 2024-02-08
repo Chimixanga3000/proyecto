@@ -5,10 +5,9 @@
 <table *ngIf="tareas.length" class="table">
     <thead>
         <tr>
-            <th>Id Tarea</th>
-            <th>Nombre de la tarea</th>
-            <th>Descripcion</th>
-            <th>Fecha de vencimiento</th>
+            <th>Id Pokemon</th>
+            <th>Nombre del pokemon</th>
+            <th>Tamaño</th>
             <th>Estado</th>
         </tr>
     </thead>
@@ -17,14 +16,15 @@
             <td>{{ tarea.id}}</td>
             <td>{{ tarea.nombre }}</td>
             <td>{{ tarea.descripcion }}</td>
-            <td>{{ tarea.fecha }}</td>
             <td>{{ tarea.estado }}</td>
         </tr>
     </tbody>
 </table>
 
-<p><strong>Tipos de estado de la tarea</strong></p>
-1:Pendiente <br>
-2:En progreso <br>
-3:Completado <br>
+<p><strong>Tipos de pokemon</strong></p>
+1:Electrico <br>
+2:Planta <br>
+3:Fuego <br>
+4:Agua <br>
+5:Dragón: <br>
 0:Sin definir <br>

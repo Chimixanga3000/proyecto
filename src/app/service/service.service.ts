@@ -20,15 +20,23 @@ export class ServiceService {
       },
       {
         id: 1,
-        desc: 'Pendientes'
+        desc: 'Electrico'
       },
       {
         id: 2,
-        desc: 'En progreso'
+        desc: 'Planta'
       },
       {
         id: 3,
-        desc: 'Completado'
+        desc: 'Fuego'
+      },
+      {
+        id: 4,
+        desc: 'Agua'
+      },
+      {
+        id: 5,
+        desc: 'Dragon'
       }
     ];
   }

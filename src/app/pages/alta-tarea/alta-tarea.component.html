@@ -1,21 +1,17 @@
-<h3>Alta de la Tarea</h3>
+<h3>Alta pokemon</h3>
 
 
 <div class="col-sm-4">
     <p>
-        <label>Nombre de la Tarea</label>
+        <label>Nombre del pokemon</label>
         <input type="text" class="form-control" [(ngModel)]="tarea.nombre">
     </p>
     <p>
-        <label>Descripcion</label>
+        <label>Tamaño</label>
         <input type="text" class="form-control" [(ngModel)]="tarea.descripcion">
     </p>
     <p>
-        <label>Fecha de vencimiento</label>
-        <input type="text" class="form-control" [(ngModel)]="tarea.fecha">
-    </p>
-    <p>
-        <label>Selecciona el tipo de esado de la tarea:</label>
+        <label>Selecciona el tipo del pokemon:</label>
         <select [(ngModel)]="tarea.estado" class="form-control">
             <option *ngFor="let tipo of tipos" value="{{ tipo.id }}">
                 {{ tipo.desc }}
